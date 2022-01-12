@@ -31,16 +31,34 @@ crossroad = input("You're at a crossroad. Where do you want to go? Type \"left\"
 
 crossroad_lower = crossroad.lower()
 
+
+
 if crossroad_lower == "left":
-  lake = print(input("You've come to a lake. There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across."))
+    lake = input("You've come to a lake. There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n")
+
+    lake_lower = lake.lower()
+
+    print(lake)
 
   
 
-  
+    if lake_lower == "wait":
+      room = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose?\n")
+
+      room_lower = room.lower()
+
+      print(room)
+
+        if room_lower = "blue"
 
 
 
 
+
+
+
+    else:
+      print("The current is to strong and you need to be rescued. Game over =(")
 
 else:
   print("You fall into a trap hole and are taken back to town. Game Over. =(")
