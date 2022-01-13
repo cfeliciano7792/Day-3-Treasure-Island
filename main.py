@@ -29,6 +29,7 @@ print("Your mission is to find the treasure.")
 
 crossroad = input("You're at a crossroad. Where do you want to go? Type \"left\" or \"right\"\n")
 
+#converts input into lowercase
 crossroad_lower = crossroad.lower()
 
 
