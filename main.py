@@ -38,7 +38,7 @@ if crossroad_lower == "left":
 
     lake_lower = lake.lower()
 
-    print(lake)
+    
 
   
 
@@ -47,14 +47,19 @@ if crossroad_lower == "left":
 
       room_lower = room.lower()
 
-      print(room)
+      
 
-        if room_lower = "blue"
+      if room_lower == "blue":
+          print("You found the treasure! Congratulations!")
 
+      elif room_lower == "red":
+        print("You ennter a room full of lava! Game over. =(")
 
+      elif room_lower == "yellow":
+        print("You enter a room full of wild beasts! Game over. =(")
 
-
-
+      else:
+        print("You choose a door that does not exist. Game over. =(")
 
 
     else:
